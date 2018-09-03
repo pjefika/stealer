@@ -19,6 +19,10 @@ public class GetStbsIn extends LoggerIn {
     public GetStbsIn() {
     }
 
+    public GetStbsIn(EfikaCustomer ec) {
+        this.ec = ec;
+    }
+
     @Override
     public String getAcao() {
         return "ConfOnlineController.getStbs";
