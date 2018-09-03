@@ -19,8 +19,9 @@ public class GetStbsIn extends LoggerIn {
     public GetStbsIn() {
     }
 
-    public GetStbsIn(EfikaCustomer ec) {
+    public GetStbsIn(EfikaCustomer ec, String executor) {
         this.ec = ec;
+        setExecutor(executor);
     }
 
     @Override

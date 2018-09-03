@@ -19,10 +19,10 @@ public class DiagnosticoHpnaIn extends LoggerIn {
     public DiagnosticoHpnaIn() {
     }
 
-    public DiagnosticoHpnaIn(EfikaCustomer ec) {
+    public DiagnosticoHpnaIn(EfikaCustomer ec, String executor) {
         this.ec = ec;
+        setExecutor(executor);
     }
-
     @Override
     public String getAcao() {
         return "ConfOnlineController.diagnosticoHpna";
