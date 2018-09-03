@@ -12,7 +12,7 @@ import br.net.gvt.efika.stealer.service.conf_online.TVServiceImpl;
  *
  * @author G0041775
  */
-public class FactoryService {
+public class FactoryStealerService {
 
     public static TVService tvService() {
         return new TVServiceImpl();
